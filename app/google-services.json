@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "855205346448",
+    "project_id": "appejerciciostpe",
+    "storage_bucket": "appejerciciostpe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855205346448:android:5f2517bbc30d4615d6ec15",
+        "android_client_info": {
+          "package_name": "com.example.appejercicios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855205346448-tvc53j7g0se1bls8l6m1orsh5p64cpne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-GlToeXrA857WVgZgErTcG0ld0y5pgyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855205346448-tvc53j7g0se1bls8l6m1orsh5p64cpne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
