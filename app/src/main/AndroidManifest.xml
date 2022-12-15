@@ -14,6 +14,27 @@
         android:theme="@style/Theme.AppEjercicios"
         tools:targetApi="31">
         <activity
+            android:name=".ligas.Ligas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".comidas.Comidas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ejercicios.Ejercicios"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".menu_principal.MenuPrincipal"
             android:exported="false">
             <meta-data

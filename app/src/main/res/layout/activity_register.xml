@@ -63,7 +63,7 @@
           android:id="@+id/etUsernameRegister"
           android:layout_width="160dp"
           android:layout_height="wrap_content"
-          android:inputType="textEmailAddress"/>
+          android:inputType="text"/>
 
     </LinearLayout>
 
@@ -121,12 +121,12 @@
           android:id="@+id/etPasswordRegister"
           android:layout_width="160dp"
           android:layout_height="wrap_content"
-          android:inputType="textEmailAddress"/>
+          android:inputType="textPassword"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/llContainerTelefono"
+        android:id="@+id/llContainerEstaturaRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -137,21 +137,51 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:src="@drawable/ic_baseline_local_phone_24"/>
+          android:src="@drawable/ic_baseline_straighten_24"/>
 
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="Teléfono:"
+          android:text="Estatura:"
           android:textColor="@color/black"
           />
 
       <EditText
 
-          android:id="@+id/etTelefonoLogin"
+          android:id="@+id/etAlturaRegister"
           android:layout_width="160dp"
           android:layout_height="wrap_content"
-          android:inputType="textEmailAddress"/>
+          android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llContainerPesoRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/llContainerEstaturaRegister">
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:src="@drawable/ic_baseline_balance_24"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Peso:"
+          android:textColor="@color/black"
+          />
+
+      <EditText
+
+          android:id="@+id/etPesoRegister"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:inputType="numberDecimal"/>
 
     </LinearLayout>
 
@@ -166,7 +196,7 @@
         android:text="Registrarse"
         android:padding="15dp"
 
-        app:layout_constraintTop_toBottomOf="@+id/llContainerTelefono"
+        app:layout_constraintTop_toBottomOf="@+id/llContainerPesoRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

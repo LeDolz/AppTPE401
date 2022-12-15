@@ -13,6 +13,15 @@
     <color name="primary">#38afae</color>
     <color name="background">#1A1D35</color>
     <color name="secondary_background">#495068</color>
+    <color name="light_gray">#DADADA</color>
+    <color name="orange">#FF6D00</color>
+
+    <color name="color_peso_bajo">#828282</color>
+    <color name="color_peso_normal">#45FF0F</color>
+    <color name="color_sobrepeso">#FFFB13</color>
+    <color name="color_obesidad1">#FE5B02</color>
+    <color name="color_obesidad2">#FF0000</color>
+    <color name="color_obesidad3">#660000</color>
 
 
 

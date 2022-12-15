@@ -25,17 +25,28 @@ class MainActivity : AppCompatActivity() {
 
     private fun setup(){
 
-        binding.btnIngresar.setOnClickListener {
+        if(cache.getName().isNullOrEmpty()){
 
-            login()
+            binding.btnIngresar.setOnClickListener {
+
+                login()
+
+            }
+
+            binding.tvRegistrarse.setOnClickListener {
+
+                startActivity(Intent(this, Register::class.java))
+
+            }
+
+        }else{
+
+            Toast.makeText(this, "Bienvenido ${cache.getName()}", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, MenuPrincipal::class.java))
 
         }
 
-        binding.tvRegistrarse.setOnClickListener {
 
-            startActivity(Intent(this, Register::class.java))
-
-        }
 
 
     }
